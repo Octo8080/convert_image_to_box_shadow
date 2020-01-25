@@ -23,7 +23,7 @@ converted css
     ...
     ...
 }
-
+```
 
 ## Execute convert image to css using box-shadow
 ```
@@ -31,11 +31,13 @@ npm run convert
 ```
 
 ## Execute confirm on server
+
 ```
 npm run server
 ```
 
-## option 
+## option
+
 ```
 Usage: convert_image_to_box_shadow [options]
 
