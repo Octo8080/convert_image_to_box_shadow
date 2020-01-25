@@ -2,10 +2,12 @@
 Inport image data covert to css using box-shadow.
 
 import data
+
 ![input](https://user-images.githubusercontent.com/42743454/73116195-8f880100-3f75-11ea-9c40-653b1579a327.png)
 
 
 converted css
+
 ```
 .mosaic {position: relative;}
 .mosaic::before {
@@ -21,7 +23,7 @@ converted css
     ...
     ...
 }
-```
+
 
 ## Execute convert image to css using box-shadow
 ```
