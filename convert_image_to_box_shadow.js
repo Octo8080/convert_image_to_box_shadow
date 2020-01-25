@@ -27,7 +27,7 @@ Jimp.read(inputFileName, (err, image) => {
     .pixelate(split);
   let styletext = "";
   styletext += `${target} {position: relative;}`;
-  styletext += `${target}::before {width:${split}px;height:${split}px;content: "";background-color: transparent;position: absolute;top: -${split}px;left: -${split}px;box-shadow:`;
+  styletext += `${target}::before {width:${split}px;height:${split}px;content: "";position: absolute;top: -${split}px;left: -${split}px;box-shadow:`;
   for (let y = 0; y < image.bitmap.height; y += split) {
     for (let x = 0; x < image.bitmap.width; x += split) {
       const c = Jimp.intToRGBA(image.getPixelColor(x, y));
