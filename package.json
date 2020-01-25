@@ -1,0 +1,22 @@
+{
+  "name": "convert_image_to_box_shadow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "serve public",
+    "convert": "node convert_image_to_box_shadow.js"   
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "jimp": "^0.9.3",
+    "output-file": "^2.0.2"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
+}
